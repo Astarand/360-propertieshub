@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://360propertieshub.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /storage/
+Disallow: /.env
+Disallow: /vendor/
+Disallow: /config/
+Disallow: /database/
+Disallow: /tests/
+
+# Allow important directories
+Allow: /assets/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /

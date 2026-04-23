@@ -1,0 +1,54 @@
+User-agent: *
+Allow: /
+
+# Priority Crawling for Service Rankings
+Crawl-delay: 1
+
+# Sitemap Location - Updated Daily
+Sitemap: https://360propertieshub.com/sitemap.xml
+
+# High Priority Service Pages for Top 5 Rankings
+Allow: /hidco-property-solution
+Allow: /rera-compliance-supports
+Allow: /property-due-diligence
+Allow: /nri-property-services
+Allow: /property-investment-advisory
+Allow: /property-tax-advisory
+Allow: /property-valuation-services
+Allow: /title-verification-services
+Allow: /webel-property-solutions
+Allow: /nkda-regulatory-support
+
+# Allow all service pages
+Allow: /our-services
+Allow: /*-services
+Allow: /*-compliance
+Allow: /*-advisory
+Allow: /*-support
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /storage/
+Disallow: /.env
+Disallow: /vendor/
+
+# Allow important directories
+Allow: /assets/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Google Bot - Priority Access for Service Pages
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+# Bing Bot - Service Page Priority
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Service Keywords for Crawlers
+# HIDCO compliance Kolkata, RERA compliance Kolkata, property due diligence Kolkata
+# NRI property services Kolkata, property investment advisory Kolkata
+# property tax advisory Kolkata, property valuation Kolkata
