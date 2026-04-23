@@ -125,8 +125,8 @@ flowchart LR
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/your-username/360-business-services.git
-cd 360-business-services
+git clone https://github.com/Astarand/360-propertieshub.git
+cd 360-propertieshub
 composer install
 npm install
 cp .env.example .env
