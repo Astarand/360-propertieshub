@@ -35,10 +35,10 @@
 
 It combines a conversion-focused frontend with a powerful backend system to handle:
 
-- Client inquiries
-- Regulatory workflows
-- SEO optimization
-- Lead generation
+* Client inquiries
+* Regulatory workflows
+* SEO optimization
+* Lead generation
 
 This platform is tailored for property owners, developers, investors, NRIs, and businesses operating in West Bengal.
 
@@ -75,25 +75,25 @@ This is not just a website — it's a complete business system.
 
 ### Customer Experience
 
-- Modern responsive UI
-- Service-based landing pages
-- Blog system for SEO growth
-- Contact & inquiry system
+* Modern responsive UI
+* Service-based landing pages
+* Blog system for SEO growth
+* Contact & inquiry system
 
 ### Inquiry System
 
-- Contact form storage
-- Service inquiry tracking
-- Expert consultation module
-- Email notifications (Admin + User)
-- reCAPTCHA protection
+* Contact form storage
+* Service inquiry tracking
+* Expert consultation module
+* Email notifications (Admin + User)
+* reCAPTCHA protection
 
 ### SEO & Growth
 
-- Dynamic meta tags
-- Open Graph integration
-- XML sitemap generation
-- Robots.txt optimization
+* Dynamic meta tags
+* Open Graph integration
+* XML sitemap generation
+* Robots.txt optimization
 
 ---
 
@@ -112,21 +112,21 @@ flowchart LR
 
 ## 🛠 Tech Stack
 
-- Laravel 12
-- PHP 8.2+
-- Blade + Vite
-- Tailwind CSS
-- MySQL / SQLite
-- Laravel Mail
-- reCAPTCHA
+* Laravel 12
+* PHP 8.2+
+* Blade + Vite
+* Tailwind CSS
+* MySQL / SQLite
+* Laravel Mail
+* reCAPTCHA
 
 ---
 
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/Astarand/360-propertieshub.git
-cd 360-propertieshub
+git clone https://github.com/your-username/360-business-services.git
+cd 360-business-services
 composer install
 npm install
 cp .env.example .env
@@ -152,13 +152,13 @@ database/
 
 ## 🚀 Deployment Checklist
 
-- Set APP_ENV=production
-- Set APP_DEBUG=false
-- Configure database
-- Setup mail credentials
-- Setup reCAPTCHA
-- Run migrations
-- Build assets
+* Set APP_ENV=production
+* Set APP_DEBUG=false
+* Configure database
+* Setup mail credentials
+* Setup reCAPTCHA
+* Run migrations
+* Build assets
 
 ---
 
@@ -177,9 +177,9 @@ This project is proprietary software developed for a specific client.
 
 You are NOT allowed to:
 
-- Copy this code
-- Modify or reuse this project
-- Distribute this code
+* Copy this code
+* Modify or reuse this project
+* Distribute this code
 
 Without explicit written permission.
 
